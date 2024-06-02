@@ -1,0 +1,60 @@
+/*220501001 Hatice Reyhan Caliskan 220501009 Betul Canol*/
+*{
+    user-select: none; /*This can be used to avoid the usaer to select the text within the ui*/
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+/*Canvas*/
+.cnvcontcont{
+    height: 100%;
+    width: 100%;
+}
+.cnvcont{
+    height: 100%;
+    width: 100%;
+}
+.cnvcont.full{
+    height: 500%;
+    width: 500%;
+}
+
+/*Sidebar*/
+.sidebar.vr{
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 5px;
+    flex-direction: column;
+    height: 100%;
+}
+.sidebar.hr{
+    position: fixed;
+    display: flex;
+    bottom: 5px;
+    left: 0;
+    flex-direction: row;
+    width: 100%;
+}
+
+/*Node Button*/
+.nodebtn {
+    background-color: #c480ff;
+    color: #fff; 
+    font-family: monospace;
+    padding: 20px 20px; 
+    border: none; 
+    cursor: pointer; 
+    margin: 10px;
+    border-radius: 5px;
+}
+.nodebtn:hover {
+    background-color: #dc5ef8; /*Change background color on hover*/
+}
+.nodebtn:active{
+    background-color: #a546ba; /*Change button color when you activate/click on it*/
+}

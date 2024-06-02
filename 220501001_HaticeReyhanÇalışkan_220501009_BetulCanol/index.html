@@ -1,0 +1,31 @@
+<!--220501001 Hatice Reyhan Caliskan 220501009 Betul Canol-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIC GATE SIMULATOR</title>
+    <script src="p5.min.js"></script>
+    <script src="classes.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cnvcontcont">
+        <div class="cnvcont"></div>
+    </div>
+    <div class="sidebar hr">
+        <button class="nodebtn" onclick="placeNode(new INPUT())">Input</button>
+        <button class="nodebtn" onclick="placeNode(new OUTPUT())">Output</button>
+        <button class="nodebtn" onclick="placeNode(new AND())">AND</button>
+        <button class="nodebtn" onclick="placeNode(new OR())">OR</button>
+        <button class="nodebtn" onclick="placeNode(new NOT())">NOT</button>
+        <button class="nodebtn" onclick="placeNode(new NAND())">NAND</button>
+        <button class="nodebtn" onclick="placeNode(new NOR())">NOR</button>
+        <button class="nodebtn" onclick="placeNode(new XOR())">XOR</button>
+        <button class="nodebtn" onclick="placeNode(new XNOR())">XNOR</button>
+        <button class="nodebtn" onclick="placeNode(new BUFFER())">BUFFER</button>
+        <button class="nodebtn" onclick="clearAllData()">&#x1F5D1;</button> <!--In this part the code is unicode for trash bin :) -->
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
